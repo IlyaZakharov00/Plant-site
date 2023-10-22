@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "LimelightRegularr";
+    src: url(../fonts/Limelight-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: "Abhaya Libre";
+    src: url(../fonts/AbhayaLibre-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Abhaya Libre ExtraBold";
+    src: url(../fonts/AbhayaLibre-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: "Abel";
+    src: url(../fonts/Abel-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter.ttf);
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: "Actor";
+    src: url(../fonts/Actor-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+.body {
+    font-family: "LimelightRegularr", sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+/*********************************************/
+/*HEADER*/
+.header-container {
+    max-width: 1365px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 10px 0px 10px;
+    margin: auto;
+}
+
+.header-logo {
+    width: 150px;
+}
+
+.header-name {
+    letter-spacing: 8px;
+    overflow: hidden;
+    color: #213924;
+    text-overflow: ellipsis;
+    font-family: LimelightRegularr;
+    font-size: 36px;
+    text-transform: uppercase;
+
+}
+
+.header-name-link {
+    text-decoration: none;
+    color: black;
+}
+
+.header-name-link:hover {
+    color: green;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.header-menu {
+    padding-left: 127px;
+}
+
+.header-menu-item:nth-child(n + 2) {
+    margin-left: 70px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #585858;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-item {
+    list-style: none;
+    text-decoration: none;
+}
+
+.icon-item-link {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-search {
+    background-image: url(../svg/search.svg);
+}
+
+.icon-profile {
+    background-image: url(../svg/profile.svg);
+}
+
+.icon-cart {
+    background-image: url(../svg/cart.svg);
+}
+
+.icon-item:nth-child(n + 2) {
+    margin-left: 17px;
+}
+
+.icon-item-link {
+    text-decoration: underline;
+}
+
+/*MAIN PAGE*/
+.main {
+    max-width: 1350px;
+    margin: auto;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.main-page {
+    min-width: 1350px;
+    min-height: 655px;
+    margin: auto;
+    padding: 88px 0 0 165px;
+    background-image: url(../img/главная\ картинка.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.main-page-title {
+    max-width: 456px;
+    max-height: 152px;
+}
+
+.main-page-title-text {
+    color: #000;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 64px;
+
+}
+
+.main-page-description {
+    margin-top: 42px;
+}
+
+.main-page-description-text {
+    color: #666769;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 20px;
+    max-width: 555px;
+}
+
+.main-page-button {
+    margin-top: 90px;
+}
+
+.main-button {
+    background-color: #000;
+    border: 0;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Abel;
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: green;
+    color: #000;
+}
+
+/*MAIN-FLOWERS*/
+.flowers-container {
+    display: flex;
+    max-width: 1350px;
+    margin: 66px auto auto auto;
+    justify-content: center;
+}
+
+.main-flowers-item {
+    max-width: 312px;
+    margin-right: 30px;
+}
+
+.palm {
+    max-width: 661px;
+    margin-right: 0px;
+}
+
+.main-flowers-item-text {
+    margin-top: 30px;
+}
+
+.main-flowers-item-img-title-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.main-flowers-item-img-title-link:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+.main-flowers-item-discription {
+    color: #585858;
+    font-family: Abhaya Libre;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.main-flowers-item-title {
+    color: #000;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+/*FLOWERS-CARDS*/
+.flowers_title {
+    max-width: 466px;
+    margin-top: 75px;
+}
+
+.flowers-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.flowers-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1350px;
+    margin: 53px auto auto auto;
+}
+
+.flowers-cards-item-img {
+    width: 313px;
+}
+
+.flowers-card-item-text {
+    margin-top: 13px;
+}
+
+.flowers-card-item-img-title {
+    color: #666769;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.flowers-card-item-img-title-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.flowers-card-item-img-title:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.flowers-card-item-discription {
+    color: #585858;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.flowers-cards-item-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.flowers-cards-item_price {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.44px;
+    text-align: right;
+
+}
+
+.old-price {
+    color: #666769;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration-line: line-through;
+    text-align: left;
+}
+
+.new-price {
+    color: red;
+}
+
+.flowers-cards-item:nth-child(-n+4) {
+    margin-bottom: 56px;
+}
+
+.flowers-cards_button {
+    margin-top: 57px;
+    text-align: center;
+}
+
+.flowers-cards-button {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Abel;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    padding: 20px;
+    border: 0;
+}
+
+.flowers-cards-button:hover {
+    background-color: green;
+    color: #000;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+.footer {
+    width: 100%;
+    background: #333434;
+    margin-top: 52px;
+    min-height: 247px;
+}
+
+.footer-container {
+    max-width: 1350px;
+    margin: auto;
+
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1350px;
+    text-align: center;
+    margin: auto;
+    padding-top: 51px;
+}
+
+.footer-menu-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.footer-menu-item {
+    padding-right: 60px;
+}
+
+.footer-menu-link {
+    color: #FFF;
+    font-family: Abel;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-menu-link:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.footer-logo-copyright-input-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+}
+
+.footer-logo-copyright {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer-name {
+    letter-spacing: 8px;
+    overflow: hidden;
+    color: #213924;
+    text-overflow: ellipsis;
+    font-family: LimelightRegularr;
+    font-size: 36px;
+    text-transform: uppercase;
+
+}
+
+.footer-name-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-name-link:hover {
+    color: green;
+}
+
+.copyright {
+    font-family: Actor;
+    font-size: 14px;
+    text-transform: lowercase;
+    color: white;
+}
+
+.plant {
+    color: #D9D9D9;
+    font-family: Actor;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.social-icon {
+    display: flex;
+    min-width: 265px;
+    justify-content: space-between;
+}
+
+.social-icon-item {
+    list-style: none;
+    text-decoration: none;
+}
+
+.social-icon-item-link {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 44px;
+    background-position: center;
+    width: 44px;
+    height: 44px;
+}
+
+.icon-instagram {
+    background-image: url(../svg/instagram.svg);
+}
+
+.icon-classmates {
+    background-image: url(../svg/classmates.svg);
+}
+
+.icon-vk {
+    background-image: url(../svg/vk.svg);
+}
+
+.footer-input-button {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-input {
+    color: #D9D9D9;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 16px;
+    text-transform: lowercase;
+    padding-left: 22px;
+    width: 315px;
+    height: 50px;
+    flex-shrink: 0;
+    border: 3px solid #FFFDFD;
+    background: #333434;
+}
+
+
+.footer-button {
+    margin-left: 30px;
+    margin-bottom: 59px;
+}
+
+.footer-button-text {
+    width: 201px;
+    height: 50px;
+    color: #333434;
+    font-family: Abhaya Libre;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 14px 19px 13px 19px;
+    border: 0;
+}
+
+.footer-button-text:hover {
+    background-color: green;
+    color: #000;
+    cursor: pointer;
+}
