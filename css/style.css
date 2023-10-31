@@ -10,7 +10,6 @@
     font-weight: 400;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 @font-face {
@@ -26,7 +25,6 @@
     font-weight: 400;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 
 @font-face {
@@ -34,7 +32,6 @@
     src: url(../fonts/Abel-Regular.ttf);
     font-weight: 400;
     font-style: normal;
-    line-height: normal;
 }
 
 @font-face {
@@ -42,7 +39,6 @@
     src: url(../fonts/Inter.ttf);
     font-weight: 400;
     font-style: normal;
-    line-height: normal;
 }
 
 @font-face {
@@ -50,7 +46,6 @@
     src: url(../fonts/Actor-Regular.ttf);
     font-weight: 400;
     font-style: normal;
-    line-height: normal;
 }
 
 .body {
@@ -82,7 +77,8 @@
     overflow: hidden;
     color: #213924;
     text-overflow: ellipsis;
-    font-family: LimelightRegularr;
+    font-family: "LimelightRegularr";
+    line-height: normal;
     font-size: 36px;
     text-transform: uppercase;
 
@@ -165,18 +161,16 @@
 }
 
 /*MAIN PAGE*/
-.main {
-    max-width: 1350px;
-    margin: auto;
-}
 
 .main-container {
     display: flex;
+    max-width: 1350px;
+    margin: auto;
     margin-top: 20px;
 }
 
 .main-page {
-    min-width: 1350px;
+    width: 100%;
     min-height: 655px;
     margin: auto;
     padding: 88px 0 0 165px;
@@ -187,25 +181,28 @@
 
 .main-page-title {
     max-width: 456px;
-    max-height: 152px;
 }
 
 .main-page-title-text {
     color: #000;
-    font-family: Abhaya Libre ExtraBold;
+    font-family: "Abhaya Libre ExtraBold";
+    line-height: normal;
     font-size: 64px;
 
 }
 
 .main-page-description {
+    max-width: 415px;
     margin-top: 42px;
 }
 
 .main-page-description-text {
     color: #666769;
-    font-family: Abhaya Libre ExtraBold;
+    font-family: "Abhaya Libre ExtraBold";
+    line-height: normal;
     font-size: 20px;
     max-width: 555px;
+
 }
 
 .main-page-button {
@@ -218,7 +215,8 @@
     flex-shrink: 0;
     color: #FFF;
     text-align: center;
-    font-family: Abel;
+    font-family: "Abel";
+    line-height: normal;
     font-size: 24px;
     letter-spacing: 2.4px;
     text-transform: uppercase;
@@ -237,16 +235,20 @@
     display: flex;
     max-width: 1350px;
     margin: 66px auto auto auto;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flowers_title {
+    margin-left: 85px;
 }
 
 .main-flowers-item {
     max-width: 312px;
-    margin-right: 30px;
 }
 
 .palm {
-    max-width: 661px;
+    max-width: 100%;
     margin-right: 0px;
 }
 
@@ -266,14 +268,16 @@
 
 .main-flowers-item-discription {
     color: #585858;
-    font-family: Abhaya Libre;
-    font-size: 17px;
+    font-family: "Abhaya Libre";
+    line-height: normal;
+    font-size: 16px;
     margin-top: 30px;
 }
 
 .main-flowers-item-title {
     color: #000;
-    font-family: Abhaya Libre ExtraBold;
+    font-family: "Abhaya Libre ExtraBold";
+    line-height: normal;
     font-size: 32px;
     text-transform: capitalize;
 }
@@ -286,7 +290,8 @@
 
 .flowers-title {
     color: #000;
-    font-family: Inter;
+    font-family: "Inter";
+    line-height: normal;
     font-size: 40px;
     font-weight: 800;
     letter-spacing: 1px;
@@ -310,7 +315,8 @@
 
 .flowers-card-item-img-title {
     color: #666769;
-    font-family: Inter;
+    font-family: "Inter";
+    line-height: normal;
     font-size: 20px;
     font-weight: 400;
 }
@@ -327,7 +333,8 @@
 
 .flowers-card-item-discription {
     color: #585858;
-    font-family: Inter;
+    font-family: "Inter";
+    line-height: normal;
     font-size: 24px;
     font-weight: 400;
     margin-top: 10px;
@@ -336,12 +343,14 @@
 .flowers-cards-item-price {
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
     margin-top: 17px;
 }
 
 .flowers-cards-item_price {
     color: #000;
-    font-family: Inter;
+    font-family: "Inter";
+    line-height: normal;
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 1.44px;
@@ -351,7 +360,8 @@
 
 .old-price {
     color: #666769;
-    font-family: Inter;
+    font-family: "Inter";
+    line-height: normal;
     font-size: 24px;
     font-weight: 300;
     text-decoration-line: line-through;
@@ -375,7 +385,8 @@
     background-color: #000;
     color: #FFF;
     text-align: center;
-    font-family: Abel;
+    font-family: "Abel";
+    line-height: normal;
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 2.4px;
@@ -425,7 +436,8 @@
 
 .footer-menu-link {
     color: #FFF;
-    font-family: Abel;
+    font-family: "Abel";
+    line-height: normal;
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
@@ -456,7 +468,8 @@
     overflow: hidden;
     color: #213924;
     text-overflow: ellipsis;
-    font-family: LimelightRegularr;
+    font-family: "LimelightRegularr";
+    line-height: normal;
     font-size: 36px;
     text-transform: uppercase;
 
@@ -472,7 +485,8 @@
 }
 
 .copyright {
-    font-family: Actor;
+    font-family: "Actor";
+    line-height: normal;
     font-size: 14px;
     text-transform: lowercase;
     color: white;
@@ -480,7 +494,8 @@
 
 .plant {
     color: #D9D9D9;
-    font-family: Actor;
+    font-family: "Actor";
+    line-height: normal;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -525,7 +540,8 @@
 
 .footer-input {
     color: #D9D9D9;
-    font-family: Abhaya Libre ExtraBold;
+    font-family: "Abhaya Libre ExtraBold";
+    line-height: normal;
     font-size: 16px;
     text-transform: lowercase;
     padding-left: 22px;
@@ -546,7 +562,8 @@
     width: 201px;
     height: 50px;
     color: #333434;
-    font-family: Abhaya Libre;
+    font-family: "Abhaya Libre";
+    line-height: normal;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -560,3 +577,300 @@
     color: #000;
     cursor: pointer;
 }
+
+/*ADAPTIVE*/
+.header_burger {
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 35px;
+    z-index: 10;
+}
+
+.straight {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+.straight:nth-child(1) {
+    transform: translateY(5px);
+}
+
+.straight:nth-child(2) {
+    transform: translateY(13px);
+}
+
+.straight:nth-child(3) {
+    transform: translateY(21px);
+}
+
+/*MOBILE*/
+@media (max-width: 767px) {
+
+    /*HEADER*/
+    .header-container {
+        padding: 50px 5.555% 0px 5.555%;
+    }
+
+
+    .menu-list,
+    .header-icon,
+    .header-menu {
+        display: none;
+    }
+
+    .header_burger {
+        display: flex;
+    }
+
+    /*MAIN*/
+    .main {
+        width: 100%;
+    }
+
+    .main-container {
+        margin-top: 43px;
+    }
+
+    .main-page {
+        width: 88.9%;
+        padding: 0;
+        background-position: 82%;
+        border-radius: 20px;
+    }
+
+    .main-page-title {
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        padding-top: 54px;
+    }
+
+    .main-page-title-text {
+        margin: auto;
+        font-weight: 800;
+        text-align: center;
+        font-family: "Abhaya Libre ExtraBold";
+        line-height: normal;
+        font-size: 40px;
+    }
+
+    .main-page-description {
+        margin: auto;
+        margin-top: 0;
+        padding-top: 35px;
+        width: 100%;
+    }
+
+    .main-page-description-text {
+        margin: auto;
+        color: #666769;
+        text-align: center;
+        font-family: "Abhaya Libre ExtraBold";
+        line-height: normal;
+        font-size: 16px;
+    }
+
+    .main-page-title-text {
+        color: #000;
+        text-align: center;
+        font-family: "Abhaya Libre ExtraBold";
+        line-height: normal;
+        font-size: 40px;
+    }
+
+    .main-page-description-text {
+        color: #666769;
+        text-align: center;
+        font-family: "Abhaya Libre ExtraBold";
+        line-height: normal;
+        font-size: 16px;
+    }
+
+    .main-page-button {
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 331px;
+    }
+
+    .main-button {
+        width: 232px;
+        height: 41px;
+        text-align: center;
+        font-family: "Abel";
+        line-height: normal;
+        font-size: 16px;
+        letter-spacing: 1.6px;
+        padding: 10px 18px;
+    }
+
+    /*MAIN FLOWERS*/
+
+    .flowers-container {
+        width: 88.9%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .main-flowers-item {
+        width: 47%;
+        margin-right: 0;
+    }
+
+    .main-flowers-item-text {
+        margin-top: 7px;
+    }
+
+    .main-flowers-item-discription {
+        margin-top: 7px;
+    }
+
+    .palm {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .main-flowers-img {
+        width: 100%;
+    }
+
+    .main-flowers-img-palm {
+        width: 100%;
+    }
+
+    .main-flowers-item-img-title-link {
+        font-size: 16px
+    }
+
+    /*FLOWERS CARDS*/
+
+    .flowers-cards {
+        width: 88.9%;
+        margin: auto;
+    }
+
+    .flowers-cards-container {
+        margin-top: 20px;
+    }
+
+    .flowers-title {
+        font-size: 20px;
+    }
+
+    .flowers_title {
+        letter-spacing: 0.5px;
+        margin-top: 31px;
+        margin-left: 0;
+    }
+
+    .flowers-cards-item:nth-child(n+5) {
+        display: none;
+    }
+
+    .flowers-cards-item {
+        width: 47%;
+    }
+
+    .flowers-cards-item-img {
+        width: 100%;
+    }
+
+    .flowers-card-item-img-title {
+        font-size: 12px;
+    }
+
+    .flowers-card-item-discription {
+        font-size: 13px;
+    }
+
+    .flowers-cards-item_price,
+    .new-price,
+    .old-price {
+        font-size: 18px;
+    }
+
+    .flowers-cards-item:nth-child(-n+4) {
+        margin-bottom: 0;
+    }
+
+    .flowers-cards-item:nth-child(4n+2) {
+        margin-bottom: 20px;
+    }
+
+    .flowers-cards_button {
+        margin-top: 35px;
+    }
+
+    .right-align {
+        flex-direction: row-reverse;
+    }
+
+    .flowers-cards-button {
+        font-size: 18px;
+        padding: 6px;
+        width: 100%;
+        letter-spacing: 1.8px;
+    }
+
+    /*FOOTER*/
+
+    .footer {
+        margin-top: 120px;
+    }
+
+    .footer-menu {
+        flex-wrap: wrap;
+        padding-top: 31px;
+    }
+
+    .footer-menu-item {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+    .footer-menu-list {
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .social-icon {
+        min-width: 265px;
+        margin: 57px auto auto auto;
+    }
+
+    .footer-logo-copyright-input-button {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    .footer-input-button {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-button {
+        margin: 25px auto auto auto;
+    }
+
+    .footer-button-text {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .footer-logo {
+        margin: auto;
+    }
+
+    .footer-logo-copyright {
+        margin-top: 68px;
+        margin-bottom: 18px;
+        text-align: center;
+    }
+}
+
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 1200px) {}
