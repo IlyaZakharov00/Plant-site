@@ -244,11 +244,12 @@
 }
 
 .main-flowers-item {
-    max-width: 312px;
+    max-width: 45%;
 }
 
+
+
 .palm {
-    max-width: 100%;
     margin-right: 0px;
 }
 
@@ -607,7 +608,7 @@
 }
 
 /*MOBILE*/
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     /*HEADER*/
     .header-container {
@@ -673,14 +674,6 @@
         font-size: 16px;
     }
 
-    .main-page-title-text {
-        color: #000;
-        text-align: center;
-        font-family: "Abhaya Libre ExtraBold";
-        line-height: normal;
-        font-size: 40px;
-    }
-
     .main-page-description-text {
         color: #666769;
         text-align: center;
@@ -715,6 +708,7 @@
     }
 
     .main-flowers-item {
+        max-width: 100%;
         width: 47%;
         margin-right: 0;
     }
@@ -833,6 +827,7 @@
     .footer-menu-list {
         margin: auto;
         flex-direction: column;
+        width: 100%;
     }
 
     .social-icon {
@@ -844,6 +839,11 @@
         flex-wrap: wrap;
         flex-direction: column-reverse;
         margin-top: 50px;
+    }
+
+    .footer_input {
+        width: 100%;
+        text-align: center;
     }
 
     .footer-input-button {
@@ -873,4 +873,257 @@
 }
 
 /*TABLET*/
-@media (min-width: 768px) and (max-width: 1200px) {}
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    /*HEADER*/
+    .header-container {
+        padding: 50px 5.555% 0px 5.555%;
+    }
+
+    .header-icon {
+        display: flex;
+    }
+
+    .menu-list,
+    .header-menu {
+        display: none;
+    }
+
+    .header_burger {
+        display: flex;
+        order: 3;
+    }
+
+    /*MAIN*/
+    .main {
+        width: 100%;
+    }
+
+    .main-container {
+        margin-top: 43px;
+    }
+
+    .main-page {
+        width: 88.9%;
+        padding: 0;
+        background-position: 82%;
+        border-radius: 20px;
+    }
+
+    .main-page-title {
+        max-width: 77%;
+        max-height: 100%;
+        margin: auto auto auto 78.675px;
+        padding-top: 54px;
+    }
+
+    .main-page-title-text {
+        color: #000;
+        font-family: "Abhaya Libre ExtraBold";
+        line-height: normal;
+        font-size: 64px;
+    }
+
+    .main-page-description {
+        margin: auto auto auto 78.675px;
+        margin-top: 0;
+        padding-top: 35px;
+        width: 100%;
+    }
+
+    .main-page-description-text {
+        color: #666769;
+        text-align: left;
+        font-family: "Abhaya Libre ExtraBold";
+        line-height: normal;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .main-page-button {
+        margin-left: 78.675px;
+        margin-top: 0px;
+        padding-top: 70px;
+    }
+
+    .main-button {
+        width: 320px;
+        height: 70px;
+        text-align: center;
+        font-family: "Abel";
+        line-height: normal;
+        font-size: 24px;
+        letter-spacing: 1.6px;
+        padding: 10px 18px;
+    }
+
+    /*MAIN FLOWERS*/
+
+    .flowers-container {
+        width: 88.9%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .main-flowers-item {
+        max-width: 100%;
+        width: 47%;
+        margin-right: 0;
+    }
+
+    .main-flowers-item-text {
+        margin-top: 7px;
+    }
+
+    .main-flowers-item-discription {
+        margin-top: 7px;
+    }
+
+    .palm {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .main-flowers-img {
+        width: 100%;
+    }
+
+    .main-flowers-img-palm {
+        width: 100%;
+    }
+
+    .main-flowers-item-img-title-link {
+        font-size: 16px
+    }
+
+    /*FLOWERS CARDS*/
+
+    .flowers-cards {
+        width: 88.9%;
+        margin: auto;
+    }
+
+    .flowers-cards-container {
+        margin-top: 20px;
+    }
+
+    .flowers-title {
+        font-size: 20px;
+    }
+
+    .flowers_title {
+        letter-spacing: 0.5px;
+        margin-top: 31px;
+        margin-left: 0;
+    }
+
+    .flowers-cards-item:nth-child(n+5) {
+        display: none;
+    }
+
+    .flowers-cards-item {
+        width: 47%;
+    }
+
+    .flowers-cards-item-img {
+        width: 100%;
+    }
+
+    .flowers-card-item-img-title {
+        font-size: 12px;
+    }
+
+    .flowers-card-item-discription {
+        font-size: 13px;
+    }
+
+    .flowers-cards-item_price,
+    .new-price,
+    .old-price {
+        font-size: 18px;
+    }
+
+    .flowers-cards-item:nth-child(-n+4) {
+        margin-bottom: 0;
+    }
+
+    .flowers-cards-item:nth-child(4n+2) {
+        margin-bottom: 20px;
+    }
+
+    .flowers-cards_button {
+        margin-top: 56px;
+    }
+
+    .right-align {
+        flex-direction: row-reverse;
+    }
+
+    .flowers-cards-button {
+        font-size: 24px;
+        padding: 6px;
+        width: 316px;
+        height: 70px;
+        letter-spacing: 1.8px;
+    }
+
+    /*FOOTER*/
+
+    .footer {
+        margin-top: 55px;
+    }
+
+    .footer-menu {
+        flex-wrap: wrap;
+        padding-top: 31px;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .footer-menu-item {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+    .footer-menu-list {
+        justify-content: space-between;
+    }
+
+    .social-icon {
+        min-width: 265px;
+        margin: 30px auto auto auto;
+    }
+
+    .footer-logo-copyright-input-button {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    .footer-input-button {
+        width: 70%;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-button {
+        margin: 0;
+    }
+
+    .footer-button-text {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .footer-logo {
+        margin: auto;
+    }
+
+    .footer-logo-copyright {
+        margin-top: 25px;
+        margin-bottom: 18px;
+        text-align: center;
+    }
+}
